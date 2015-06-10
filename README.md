@@ -6,4 +6,4 @@ Find your Client ID and Secret ID from Google and paste these in this project's 
 
 Simply download this project and run in Node environment and you will be able to authenticate using Google.
 
-Clone this project and "npm install" command on your console.
+Clone this project and run "npm install" command on your console.
