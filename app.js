@@ -40,8 +40,8 @@ app.use(flash()); // use connect-flash for flash messages stored in session
     });
  
 passport.use(new GoogleStrategy({
-    clientID: '1074211110303-58brbb05ns9d6puacvknpccf3gml1i0f.apps.googleusercontent.com',
-    clientSecret: 'iRGYUpHL2k-FNTdoCMZ2WlzL',
+    clientID: '--Your Client ID here--',
+    clientSecret: '--Your Secret ID here--',
     callbackURL: "http://localhost:3000/auth/google/callback"
   },
   function(accessToken, refreshToken, profile, done) {
